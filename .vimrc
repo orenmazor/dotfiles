@@ -55,5 +55,5 @@ function! MyFugitive()
     return exists('*fugitive#head') ? fugitive#head() : ''
   endfunction
 
-
+set timeoutlen=1000 ttimeoutlen=0
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip

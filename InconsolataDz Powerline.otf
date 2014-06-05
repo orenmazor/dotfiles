@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html class=" ">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>vim-powerline patched fonts</title>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="NioNEjGnPSWC3+xVbVzTCd5zTRw+E+Nrr9E0FWAjJV4=" name="csrf-token" />
+  <meta name="viewport" content="width=960">
+
+
+    <link type="text/plain" rel="author" href="https://github.com/humans.txt" />
+    <meta content="gist" name="octolytics-app-id" /><meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="D8BFE7DA:2A04:A0AB8CA:536A4995" name="octolytics-dimension-request_id" />
+
+  <link href="https://gist-assets.github.com/assets/application-23b5f1f860627d975f69358b680a6c1c.css" media="screen, print" rel="stylesheet" />
+  <script src="https://gist-assets.github.com/assets/application-a6f0f5317ef6e09be9c1eac645441ab6.js"></script>
+
+      <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@github">
+  <meta property="og:title" content="qrush/Inconsolata-dz-Powerline.otf">
+  <meta property="og:type" content="githubog:gist">
+  <meta property="og:url" content="https://gist.github.com/qrush/1595572">
+  <meta property="og:image" content="https://avatars0.githubusercontent.com/u/12610?s=140">
+  <meta property="og:site_name" content="GitHub Gists">
+  <meta property="og:description" content="vim-powerline patched fonts - Gist is a simple way to share snippets of text and code with others.">
+  <meta name="description" content="vim-powerline patched fonts - Gist is a simple way to share snippets of text and code with others.">
+
+
+</head>
+
+<body class=" "
+  data-plan="">
+
+  <div id="wrapper">
+    
+
+    <div id="header" class="header header-logged-out">
+      <div class="container" class="clearfix">
+        <a class="header-logo-wordmark" href="https://gist.github.com/">
+          <span class="octicon octicon-logo-github"></span>
+          <span class="octicon-logo octicon-logo-gist"></span>
+        </a>
+
+        <div class="header-actions">
+          <a class="button primary" href="https://github.com/signup?return_to=gist">Sign up for a GitHub account</a>
+          <a class="button" href="https://gist.github.com/login?return_to=%2Fqrush%2F1595572" data-skip-pjax>Sign in</a>
+        </div>
+        <div class="divider-vertical"></div>
+        <div class="topsearch">
+  <form id="top_search_form" action="/search" data-pjax-remote=push accept-charset="UTF-8">
+    <div class="search">
+      <input type="text" class="search js-search js-navigation-enable " name="q" placeholder="Search&#x2026;" data-hotkey="/" autocomplete=off autocorrect=off value="" >
+
+    </div>
+    <div class="divider-vertical"></div>
+  </form>
+  <ul class="top-nav">
+    <li class="explore"><a href="/discover">All Gists</a></li>
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <div class="site-content" id="js-pjax-container" data-pjax-container>
+      <div class=" site-container js-site-container" data-url="/qrush/1595572">
+  
+  
+
+<meta content="true" name="octolytics-dimension-public" /><meta content="1595572" name="octolytics-dimension-gist_id" /><meta content="1595572" name="octolytics-dimension-gist_name" /><meta content="false" name="octolytics-dimension-anonymous" /><meta content="12610" name="octolytics-dimension-owner_id" /><meta content="qrush" name="octolytics-dimension-owner_login" /><meta content="false" name="octolytics-dimension-forked" />
+
+<div class="pagehead repohead">
+  <div class="container">
+    <div class="title-actions-bar">
+      <ul class="pagehead-actions">
+
+
+      </ul>
+      <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public" >
+        <span class="repo-label"><span class="" >public</span></span>
+        <span class="mega-octicon octicon-gist" ></span>
+        <div class="meta">
+          <div class="gist-author">
+            <img src="https://avatars0.githubusercontent.com/u/12610?s=140" width="26" height="26">
+            <span class="author vcard">
+                <span itemprop="title"><a href="/qrush">qrush</a></span>
+            </span> /
+            <strong><a href="/qrush/1595572" class="js-current-repository">Inconsolata-dz-Powerline.otf</a></strong>
+          </div>
+          <div class="gist-timestamp">
+              <span class="datetime">Last active <time class="js-relative-date" title="2014-05-02T22:57:40Z" datetime="2014-05-02T22:57:40Z">2014-05-02</time></span>
+          </div>
+      </h1>
+    </div>
+
+  </div>
+</div>
+
+
+  <div class="gist-description container">
+    <p><div>vim-powerline patched fonts</div></p>
+  </div>
+<div class="gist container js-gist-container"
+  data-version="6c453ddc959b93895ffbf4fd904e2ba60256c904"
+  data-created="false"
+  data-updated="false">
+
+    <div class="root-pane">
+  <div class="menu-container">
+    <ul class="menu gisttabs">
+      <li>
+        <a href="/qrush/1595572" class="selected">
+          Gist Detail
+        </a>
+      </li>
+
+        <li class="revision-count">
+          <a href="/qrush/1595572/revisions" >
+            Revisions
+            <span class="counter">3</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/qrush/1595572/stars" >
+            Stars
+            <span class="counter">223</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/qrush/1595572/forks" >
+            Forks
+            <span class="counter">38</span>
+          </a>
+        </li>
+    </ul>
+  </div>
+
+  <ul class="export-references">
+    <li>
+      <a href="/qrush/1595572/download" class="minibutton" data-skip-pjax="true" rel="nofollow"><span class="octicon octicon-cloud-download"></span>Download Gist</a>
+    </li>
+    <li>
+      <label for="url-field"><strong>Clone</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field js-copy-toggle" name="url-field" value="https://gist.github.com/1595572.git">
+    </li>
+    <li>
+      <label for="embed-field"><strong>Embed</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" name="embed-field" value="&lt;script src=&quot;https://gist.github.com/qrush/1595572.js&quot;&gt;&lt;/script&gt;">
+    </li>
+    <li>
+      <label for="link-field"><strong>Link to</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" name="link-field" value="https://gist.github.com/qrush/1595572">
+    </li>
+  </ul>
+</div>
+
+
+  <div class="column files">
+        <div id="file-inconsolata-dz-powerline-otf" class="bubble">
+          <div class="file-box ">
+            <div class="meta">
+              <div class="file-info">
+                <span class="file-type-icon"><span class="octicon octicon-gist"></span></span>
+                <strong class="file-name js-selectable-text">Inconsolata-dz-Powerline.otf</strong>
+              </div>
+              <div class="file-actions">
+                
+                <ul class="button-group">
+                  <li><a aria-label="Permalink" href="#file-inconsolata-dz-powerline-otf" class="file-actions-button tooltipped tooltipped-s permalink"><span class="octicon octicon-link"></span></a></li>
+                  <li><a aria-label="View Raw" href="/qrush/1595572/raw/Inconsolata-dz-Powerline.otf" data-skip-pjax class="file-actions-button tooltipped tooltipped-s raw-url js-view-raw"><span class="octicon octicon-code"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="suppressed">
+              <a class="js-show-suppressed-file">File suppressed. Click to show.</a>
+            </div>
+            
+    <div class="data raw">
+      <a href="https://gist.github.com/qrush/1595572/raw/Inconsolata-dz-Powerline.otf" data-skip-pjax class="js-view-raw">View Raw <span class="octicon octicon-arrow-right"></span></a>
+    </div>
+
+
+
+
+          </div>
+        </div>
+        <div id="file-menlo-powerline-otf" class="bubble">
+          <div class="file-box ">
+            <div class="meta">
+              <div class="file-info">
+                <span class="file-type-icon"><span class="octicon octicon-gist"></span></span>
+                <strong class="file-name js-selectable-text">Menlo-Powerline.otf</strong>
+              </div>
+              <div class="file-actions">
+                
+                <ul class="button-group">
+                  <li><a aria-label="Permalink" href="#file-menlo-powerline-otf" class="file-actions-button tooltipped tooltipped-s permalink"><span class="octicon octicon-link"></span></a></li>
+                  <li><a aria-label="View Raw" href="/qrush/1595572/raw/Menlo-Powerline.otf" data-skip-pjax class="file-actions-button tooltipped tooltipped-s raw-url js-view-raw"><span class="octicon octicon-code"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="suppressed">
+              <a class="js-show-suppressed-file">File suppressed. Click to show.</a>
+            </div>
+            
+    <div class="data raw">
+      <a href="https://gist.github.com/qrush/1595572/raw/Menlo-Powerline.otf" data-skip-pjax class="js-view-raw">View Raw <span class="octicon octicon-arrow-right"></span></a>
+    </div>
+
+
+
+
+          </div>
+        </div>
+        <div id="file-mensch-powerline-otf" class="bubble">
+          <div class="file-box ">
+            <div class="meta">
+              <div class="file-info">
+                <span class="file-type-icon"><span class="octicon octicon-gist"></span></span>
+                <strong class="file-name js-selectable-text">mensch-Powerline.otf</strong>
+              </div>
+              <div class="file-actions">
+                
+                <ul class="button-group">
+                  <li><a aria-label="Permalink" href="#file-mensch-powerline-otf" class="file-actions-button tooltipped tooltipped-s permalink"><span class="octicon octicon-link"></span></a></li>
+                  <li><a aria-label="View Raw" href="/qrush/1595572/raw/mensch-Powerline.otf" data-skip-pjax class="file-actions-button tooltipped tooltipped-s raw-url js-view-raw"><span class="octicon octicon-code"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="suppressed">
+              <a class="js-show-suppressed-file">File suppressed. Click to show.</a>
+            </div>
+            
+    <div class="data raw">
+      <a href="https://gist.github.com/qrush/1595572/raw/mensch-Powerline.otf" data-skip-pjax class="js-view-raw">View Raw <span class="octicon octicon-arrow-right"></span></a>
+    </div>
+
+
+
+
+          </div>
+        </div>
+    <div id="comments" class="new-comments">
+      <div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/8345?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-75652">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/alexyoung" class="comment-header-author">alexyoung</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-75652">
+              <a href="/qrush/1595572#comment-75652">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-75652" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-13T09:54:57Z" datetime="2012-01-13T09:54:57Z">2012-01-13</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Awesome to the max</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars0.githubusercontent.com/u/130494?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-75866">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/endel" class="comment-header-author">endel</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-75866">
+              <a href="/qrush/1595572#comment-75866">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-75866" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-14T02:53:10Z" datetime="2012-01-14T02:53:10Z">2012-01-14</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Awesome! Can you provide Monaco patched font too?</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/8126?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-75883">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/daqing" class="comment-header-author">daqing</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-75883">
+              <a href="/qrush/1595572#comment-75883">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-75883" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-14T06:41:05Z" datetime="2012-01-14T06:41:05Z">2012-01-14</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>+1 for patched Monaco</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/408830?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-75906">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/victorpimentel" class="comment-header-author">victorpimentel</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-75906">
+              <a href="/qrush/1595572#comment-75906">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-75906" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-14T13:38:57Z" datetime="2012-01-14T13:38:57Z">2012-01-14</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Thank you :D</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/144952?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-76066">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/suvash" class="comment-header-author">suvash</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-76066">
+              <a href="/qrush/1595572#comment-76066">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-76066" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-15T17:36:06Z" datetime="2012-01-15T17:36:06Z">2012-01-15</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>this is great, but what are the fontnames to be use on the vimrc file ? rather confused.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/408830?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-76067">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/victorpimentel" class="comment-header-author">victorpimentel</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-76067">
+              <a href="/qrush/1595572#comment-76067">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-76067" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-15T17:42:37Z" datetime="2012-01-15T17:42:37Z">2012-01-15</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@suvash These fonts need to be installed in your machine, and then selected as your terminal font. You have to change nothing in your .vimrc (well, you need to activate the "fancy" mode, as the documentation says).</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/144952?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-76077">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/suvash" class="comment-header-author">suvash</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-76077">
+              <a href="/qrush/1595572#comment-76077">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-76077" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-15T18:19:46Z" datetime="2012-01-15T18:19:46Z">2012-01-15</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Thanks a lot, and also found the trick for non-terminal vim(I use MacVim occasionally).</p>
+
+<pre><code>if has('gui_running')
+  set guifont=Monaco:h12    " set fonts for gui vim
+  set transparency=5        " set transparent window
+  set guioptions=egmrt  " hide the gui menubar
+endif
+</code></pre>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/58365?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-76555">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/sjl" class="comment-header-author">sjl</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-76555">
+              <a href="/qrush/1595572#comment-76555">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-76555" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-17T18:11:56Z" datetime="2012-01-17T18:11:56Z">2012-01-17</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>If you want a version of Menlo that includes bold, italic, and bold italic: <a href="https://gist.github.com/1627888" rel="noreferrer">https://gist.github.com/1627888</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars0.githubusercontent.com/u/3456?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-76678">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/blissdev" class="comment-header-author">blissdev</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-76678">
+              <a href="/qrush/1595572#comment-76678">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-76678" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-18T03:25:15Z" datetime="2012-01-18T03:25:15Z">2012-01-18</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Wish there was a Consolas patch.. :)</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars0.githubusercontent.com/u/12610?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-76949">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/qrush" class="comment-header-author">qrush</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-76949">
+              <a href="/qrush/1595572#comment-76949">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-76949" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-18T22:30:39Z" datetime="2012-01-18T22:30:39Z">2012-01-18</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Folks, I'm not going to provide any more patched fonts. I did the 3 up there for myself and a friend. Download vim-powerline, check out the readme, and get it working like I did if you want it with your own font.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/10632?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-77284">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/goatslacker" class="comment-header-author">goatslacker</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-77284">
+              <a href="/qrush/1595572#comment-77284">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-77284" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-19T23:23:19Z" datetime="2012-01-19T23:23:19Z">2012-01-19</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Thanks for providing the fonts! I owe you a <img class="emoji" title=":beer:" alt=":beer:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/beer.png" height="20" width="20" align="absmiddle"></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/13339?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-77307">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/mbadran" class="comment-header-author">mbadran</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-77307">
+              <a href="/qrush/1595572#comment-77307">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-77307" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-20T00:37:15Z" datetime="2012-01-20T00:37:15Z">2012-01-20</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Unrelated noob question: how do you attach a binary font file (ttf) to a gist? I patched Meslo DZ and I want to make it available.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/58365?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-77308">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/sjl" class="comment-header-author">sjl</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-77308">
+              <a href="/qrush/1595572#comment-77308">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-77308" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-20T00:41:02Z" datetime="2012-01-20T00:41:02Z">2012-01-20</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>I used the gist command line tool. You might want to zip it first though -- someone said they had trouble with the first file I uploaded. I'm not sure of it was an issue with gist or the browser mangling the download.</p>
+
+<p>On Jan 19, 2012, at 7:37 PM, Mohammed<a href="mailto:reply@reply.github.com" rel="noreferrer">reply@reply.github.com</a> wrote:</p>
+
+<blockquote>
+<p>Unrelated noob question: how do you attach a binary font file (ttf) to a gist? I patched Meslo DZ and I want to make it available.</p>
+
+<hr>
+<p>Reply to this email directly or view it on GitHub:<br><a href="https://gist.github.com/1595572" rel="noreferrer">https://gist.github.com/1595572</a></p>
+</blockquote>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/870977?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-78848">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/clownfart" class="comment-header-author">clownfart</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-78848">
+              <a href="/qrush/1595572#comment-78848">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-78848" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-26T20:36:41Z" datetime="2012-01-26T20:36:41Z">2012-01-26</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>When using your patched Inconsolata font, and Powerline_symbols set to fancy, I get boxes instead of the patched characters. Here's a screenshot:</p>
+
+<p><a href="https://camo.githubusercontent.com/426e800da2fb01470aaf6136b853e177d98aafa7/687474703a2f2f692e6f6c652e696d2f696d672f776e657066352e706e67" target="_blank" rel="noreferrer"><img src="https://camo.githubusercontent.com/426e800da2fb01470aaf6136b853e177d98aafa7/687474703a2f2f692e6f6c652e696d2f696d672f776e657066352e706e67" alt="broken powerline status bar font" data-canonical-src="http://i.ole.im/img/wnepf5.png" style="max-width:100%;"></a></p>
+
+<p>Is there a setting I'm missing, or is the font not working correctly? All my settings seem to be set to UTF-8 and using urxvt.</p>
+
+<p><strong>Edit:</strong> I've tried another font from the wiki, and it seems to work. This tells me the font you provide might not be functional.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/10632?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-78866">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/goatslacker" class="comment-header-author">goatslacker</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-78866">
+              <a href="/qrush/1595572#comment-78866">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-78866" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-26T21:51:18Z" datetime="2012-01-26T21:51:18Z">2012-01-26</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@clownfart <code>rm /tmp/Powerline.cache</code></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/870977?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-78868">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/clownfart" class="comment-header-author">clownfart</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-78868">
+              <a href="/qrush/1595572#comment-78868">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-78868" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-26T22:09:44Z" datetime="2012-01-26T22:09:44Z">2012-01-26</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@goatslacker that isn't a file. I've tried :PowerlineClearCache as well.</p>
+
+<p><strong>Edit:</strong> I was able to patch my own font, but the glyphs have a lower line height than Inconsolata-dz has. I will try with normal Inconsolata.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/295478?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-79288">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/martin-damien" class="comment-header-author">martin-damien</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-79288">
+              <a href="/qrush/1595572#comment-79288">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-79288" class="comment-header-date">
+                <time class="js-relative-date" title="2012-01-28T19:02:52Z" datetime="2012-01-28T19:02:52Z">2012-01-28</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Thank you very much for those patched fonts. It saved my life (not able to compile on my MAC).</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/1227856?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-81020">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/jojojames" class="comment-header-author">jojojames</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-81020">
+              <a href="/qrush/1595572#comment-81020">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-81020" class="comment-header-date">
+                <time class="js-relative-date" title="2012-02-04T20:05:22Z" datetime="2012-02-04T20:05:22Z">2012-02-04</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Font doesn't display correct in gvim, everything has wide spacings. Can anyone help?</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/9176?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-330079">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/niklas" class="comment-header-author">niklas</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-330079">
+              <a href="/qrush/1595572#comment-330079">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-330079" class="comment-header-date">
+                <time class="js-relative-date" title="2012-05-24T21:18:08Z" datetime="2012-05-24T21:18:08Z">2012-05-24</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@6msj vim did not find the font. Try the following in your .vimrc:</p>
+
+<p><code>set guifont=Inconsolata-dz\ for\ Powerline\ Medium\ 12</code></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/1244535?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-332240">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/cutemachine" class="comment-header-author">cutemachine</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-332240">
+              <a href="/qrush/1595572#comment-332240">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-332240" class="comment-header-date">
+                <time class="js-relative-date" title="2012-05-26T21:25:19Z" datetime="2012-05-26T21:25:19Z">2012-05-26</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Excellent. Many Thanks.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/810650?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-353712">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/teoljungberg" class="comment-header-author">teoljungberg</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-353712">
+              <a href="/qrush/1595572#comment-353712">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-353712" class="comment-header-date">
+                <time class="js-relative-date" title="2012-06-17T17:23:33Z" datetime="2012-06-17T17:23:33Z">2012-06-17</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>My statusline looks strange with the Inconsolata font. This is in vim inside iTerm. It works just fine with MacVim</p>
+
+<p><a href="http://cl.ly/1M1C2T161E2D2S0f0w17" rel="noreferrer">http://cl.ly/1M1C2T161E2D2S0f0w17</a></p>
+
+<p>Have anyone got any idea?</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/1449387?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-356234">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/bmcorser" class="comment-header-author">bmcorser</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-356234">
+              <a href="/qrush/1595572#comment-356234">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-356234" class="comment-header-date">
+                <time class="js-relative-date" title="2012-06-22T23:21:17Z" datetime="2012-06-22T23:21:17Z">2012-06-22</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>I just downloaded Mensch and this is crazy.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/588566?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-363376">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/supr" class="comment-header-author">supr</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-363376">
+              <a href="/qrush/1595572#comment-363376">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-363376" class="comment-header-date">
+                <time class="js-relative-date" title="2012-07-03T21:04:51Z" datetime="2012-07-03T21:04:51Z">2012-07-03</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@metamorfos i think you might have to increase the size of your status bar.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/810650?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-363424">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/teoljungberg" class="comment-header-author">teoljungberg</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-363424">
+              <a href="/qrush/1595572#comment-363424">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-363424" class="comment-header-date">
+                <time class="js-relative-date" title="2012-07-03T22:23:03Z" datetime="2012-07-03T22:23:03Z">2012-07-03</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <blockquote>
+<p>@metamorfos i think you might have to increase the size of your status bar.</p>
+</blockquote>
+
+<p>that, amongst other things, did it @supr</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/734158?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-507066">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/J-Swift" class="comment-header-author">J-Swift</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-507066">
+              <a href="/qrush/1595572#comment-507066">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-507066" class="comment-header-date">
+                <time class="js-relative-date" title="2012-09-01T23:56:18Z" datetime="2012-09-01T23:56:18Z">2012-09-01</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>I had the same issue as metamorfos (using terminal vim and iTerm2) and found 2 ways to fix it. One, you can choose a different font. Two, you can mess with the vertical line height of the terminal font. Hope that helps someone.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/42232?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-571797">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/dz" class="comment-header-author">dz</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-571797">
+              <a href="/qrush/1595572#comment-571797">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-571797" class="comment-header-date">
+                <time class="js-relative-date" title="2012-09-13T18:22:46Z" datetime="2012-09-13T18:22:46Z">2012-09-13</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Thanks much for the inconsolata-dz patch! :) I love powerline.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/210406?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-579982">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/davidchambers" class="comment-header-author">davidchambers</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-579982">
+              <a href="/qrush/1595572#comment-579982">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-579982" class="comment-header-date">
+                <time class="js-relative-date" title="2012-09-27T06:04:09Z" datetime="2012-09-27T06:04:09Z">2012-09-27</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>I just patched Inconsolata (after battling to get fontforge to compile). I made the following tweak to get the arrows to line up perfectly:</p>
+
+<div class="highlight highlight-diff"><pre><span class="gh">diff --git a/fontpatcher/fontpatcher b/fontpatcher/fontpatcher</span>
+<span class="gh">index 2c54a3f..6e75838 100755</span>
+<span class="gd">--- a/fontpatcher/fontpatcher</span>
+<span class="gi">+++ b/fontpatcher/fontpatcher</span>
+<span class="gu">@@ -177,7 +177,7 @@ for font_path in args.fonts:</span>
+        font.transform(psMat.translate(0, font_dim['ymax'] - sym_dim['ymax']))
+
+        # Then move it the y center difference
+<span class="gd">-       font.transform(psMat.translate(0, sym_ycenter - font_ycenter))</span>
+<span class="gi">+       font.transform(psMat.translate(0, sym_ycenter - font_ycenter - 66))</span>
+
+        # Ensure that the glyph doesn't extend outside the font's bounding box
+        if sym_dim['width'] &gt; font_dim['width']:
+</pre></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars0.githubusercontent.com/u/327028?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-580632">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/colemickens" class="comment-header-author">colemickens</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-580632">
+              <a href="/qrush/1595572#comment-580632">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-580632" class="comment-header-date">
+                <time class="js-relative-date" title="2012-09-29T08:10:35Z" datetime="2012-09-29T08:10:35Z">2012-09-29</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Love to see this for Adobe's new Source Code Pro.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars2.githubusercontent.com/u/34509?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-584125">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/joshmosh" class="comment-header-author">joshmosh</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-584125">
+              <a href="/qrush/1595572#comment-584125">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-584125" class="comment-header-date">
+                <time class="js-relative-date" title="2012-10-05T17:07:07Z" datetime="2012-10-05T17:07:07Z">2012-10-05</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <ul>
+<li>1 for Monaco</li>
+</ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars0.githubusercontent.com/u/741466?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-608507">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/ruaz" class="comment-header-author">ruaz</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-608507">
+              <a href="/qrush/1595572#comment-608507">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-608507" class="comment-header-date">
+                <time class="js-relative-date" title="2012-11-26T23:57:32Z" datetime="2012-11-26T23:57:32Z">2012-11-26</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@davidchambers Excellent work, thank you! Finally, I have a decent looking status bar.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars3.githubusercontent.com/u/320464?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-622147">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/hanleybrand" class="comment-header-author">hanleybrand</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-622147">
+              <a href="/qrush/1595572#comment-622147">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-622147" class="comment-header-date">
+                <time class="js-relative-date" title="2012-12-11T16:14:41Z" datetime="2012-12-11T16:14:41Z">2012-12-11</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@colemickens - <a href="https://github.com/fncll/vimstuff/tree/master/powerline-fonts" rel="noreferrer">https://github.com/fncll/vimstuff/tree/master/powerline-fonts</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars0.githubusercontent.com/u/1687443?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-689753">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/hit9" class="comment-header-author">hit9</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-689753">
+              <a href="/qrush/1595572#comment-689753">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-689753" class="comment-header-date">
+                <time class="js-relative-date" title="2013-01-01T05:45:51Z" datetime="2013-01-01T05:45:51Z">2013-01-01</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>cool, i like it !</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars0.githubusercontent.com/u/89634?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-770994">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/zhm" class="comment-header-author">zhm</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-770994">
+              <a href="/qrush/1595572#comment-770994">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-770994" class="comment-header-date">
+                <time class="js-relative-date" title="2013-02-11T04:44:09Z" datetime="2013-02-11T04:44:09Z">2013-02-11</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>I ended up having to make some tweaks to the <code>fontpatcher</code> script to get Inconsolata-dz to line up perfectly in MacVim.</p>
+
+<p>Here is my font file for anyone else who stumbles upon this: <a href="http://cl.ly/3Q362Q2M1e1h" rel="noreferrer">http://cl.ly/3Q362Q2M1e1h</a></p>
+
+<p>Enabled using <code>set guifont=Inconsolata-dz\ for\ Powerline:h13</code></p>
+
+<p>Here are my changes to the <code>fontpatcher</code> script:</p>
+
+<pre lang="git"><code>diff --git a/fontpatcher/fontpatcher b/fontpatcher/fontpatcher
+index 2c54a3f..4826d9d 100755
+--- a/fontpatcher/fontpatcher
++++ b/fontpatcher/fontpatcher
+@@ -164,7 +164,7 @@ for font_path in args.fonts:
+                        # Stretch the glyph vertically
+                        scale_ratio = font_dim['height'] / sym_dim['height']
+
+-                       font.transform(psMat.scale(1, scale_ratio))
++                       font.transform(psMat.scale(1, scale_ratio * 1.3))
+
+                # Use the dimensions from the pasted and stretched glyph
+                sym_dim = get_dim(font[sym_glyph.unicode])
+@@ -177,7 +177,7 @@ for font_path in args.fonts:
+                font.transform(psMat.translate(0, font_dim['ymax'] - sym_dim['ymax']))
+
+                # Then move it the y center difference
+-               font.transform(psMat.translate(0, sym_ycenter - font_ycenter))
++               font.transform(psMat.translate(0, sym_ycenter - font_ycenter + 60))
+
+                # Ensure that the glyph doesn't extend outside the font's bounding box
+                if sym_dim['width'] &gt; font_dim['width']:
+</code></pre>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/688326?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-851832">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/dabido" class="comment-header-author">dabido</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-851832">
+              <a href="/qrush/1595572#comment-851832">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-851832" class="comment-header-date">
+                <time class="js-relative-date" title="2013-06-26T06:52:10Z" datetime="2013-06-26T06:52:10Z">2013-06-26</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>Can someone update these fonts to the new code points? <a href="https://github.com/robbyrussell/oh-my-zsh/pull/1872" rel="noreferrer">https://github.com/robbyrussell/oh-my-zsh/pull/1872</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/936320?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-857356">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/justin8" class="comment-header-author">justin8</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-857356">
+              <a href="/qrush/1595572#comment-857356">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-857356" class="comment-header-date">
+                <time class="js-relative-date" title="2013-07-06T04:35:15Z" datetime="2013-07-06T04:35:15Z">2013-07-06</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>You can get the menlo patched font at least from my dotfiles here:<br><a href="https://github.com/justin8/dotfiles/tree/master/install-files/fonts" rel="noreferrer">https://github.com/justin8/dotfiles/tree/master/install-files/fonts</a></p>
+
+<p>I couldn't find a decent font with the new code points, so I ripped the menlo ttc from OS X and patched it.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/229384?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-861528">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/kevinrenskers" class="comment-header-author">kevinrenskers</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-861528">
+              <a href="/qrush/1595572#comment-861528">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-861528" class="comment-header-date">
+                <time class="js-relative-date" title="2013-07-12T14:48:13Z" datetime="2013-07-12T14:48:13Z">2013-07-12</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>The best source for the updated fonts seems to be <a href="https://github.com/Lokaltog/powerline-fonts" rel="noreferrer">https://github.com/Lokaltog/powerline-fonts</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/694873?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-945176">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/toogy" class="comment-header-author">toogy</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-945176">
+              <a href="/qrush/1595572#comment-945176">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-945176" class="comment-header-date">
+                <time class="js-relative-date" title="2013-11-06T16:20:19Z" datetime="2013-11-06T16:20:19Z">2013-11-06</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@justin8 your Menlo font is not working</p>
+
+<p>Can someone provide a Menlo patched font please ?</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars0.githubusercontent.com/u/242997?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-1002168">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/monokrome" class="comment-header-author">monokrome</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-1002168">
+              <a href="/qrush/1595572#comment-1002168">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-1002168" class="comment-header-date">
+                <time class="js-relative-date" title="2014-02-09T08:49:27Z" datetime="2014-02-09T08:49:27Z">2014-02-09</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>@toogy Not sure if this works for you, but <a href="https://github.com/rvalente/dotfiles/blob/30f2dff5de46c7164eea84ce6603011ca88dad54/fonts/Menlo%20Regular%20for%20Powerline.ttf" rel="noreferrer">this copy of Menlo</a> seems to have solved the problem for myself.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="discussion-bubble js-comment-container">
+  <img class="discussion-bubble-avatar" src="https://avatars1.githubusercontent.com/u/1576201?s=140" width="48" height="48">
+  <div class="discussion-bubble-content bubble">
+    <div class="discussion-bubble-inner">
+
+      <div class="comment js-comment " id="comment-1186602">
+        <div class="comment-header normal-comment-header">
+          <a href="#" class="comment-type-icon octicon octicon-comment"></a>
+          <a href="/mtalebi" class="comment-header-author">mtalebi</a>
+          <span class="comment-header-action-text">
+            <span id="gistcomment-1186602">
+              <a href="/qrush/1595572#comment-1186602">commented</a>
+            </span>
+          </span>
+          <span class="comment-header-right">
+            <span>
+              <a href="/qrush/1595572#comment-1186602" class="comment-header-date">
+                <time class="js-relative-date" title="2014-03-07T20:48:02Z" datetime="2014-03-07T20:48:02Z">2014-03-07</time>
+              </a>
+            </span>
+          </span>
+        </div>
+
+
+        <div class="comment-content">
+          <div class="edit-comment-hide">
+            <!-- <div class="comment-form-error">There has been an error</div> -->
+            <div class="comment-body markdown-body markdown-format js-comment-body">
+                <p>I don't know if this helps anyone else, try changing your iTerm's profile to Pastel (Dark Background). It fixed the icon display issue for me. My terminal now looks exactly like <a href="http://www.paradox.io/posts/9-my-new-zsh-prompt" rel="noreferrer">http://www.paradox.io/posts/9-my-new-zsh-prompt</a>. FYI, I did install the above fonts.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+      <p class="uncommentable"><span class="octicon octicon-alert"></span> Please <a href="/login?return_to=/qrush/1595572" rel="nofollow">sign in</a> to comment on this gist.</p>
+  </div>
+</div>
+
+  <div class="context-overlay"></div>
+</div>
+
+    </div>
+    <div class="slow-loading-overlay"></div>
+  </div>
+
+  <div id="ajax-error-message" class="flash flash-error">
+    <div class="container">
+      <span class="octicon octicon-alert"></span>
+      Something went wrong with that request. Please try again.
+      <a href="#" class="octicon octicon-remove-close ajax-error-dismiss"></a>
+    </div>
+  </div>
+
+
+  <footer>
+    <div id="footer">
+  <div class="container clearfix">
+
+    <!-- Served fresh by github-fe102-cp1-prd.iad.github.net -->
+    <p class="right">&copy; 2014 GitHub Inc. All rights reserved.</p>
+    <a class="left" href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+    <ul id="legal">
+      <li><a href="https://github.com/blog">The GitHub Blog</a></li>
+      <li><a href="mailto:support@github.com">Support</a></li>
+      <li><a href="https://github.com/contact">Contact</a></li>
+    </ul>
+
+  </div><!-- /.container -->
+</div><!-- /.#footer -->
+
+  </footer>
+
+</body>
+</html>

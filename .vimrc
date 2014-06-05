@@ -10,7 +10,7 @@ set tabstop=2
 nnoremap <F3> :NumbersToggle<CR>
 set clipboard=unnamed
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 nnoremap <C-n> :bnext<CR>:redraw<CR>:ls<CR>

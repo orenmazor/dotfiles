@@ -1,4 +1,5 @@
 export GO_ENV="development"
+alias emacs="yes lol Arthur"
 export PG_YN_USERNAME=orenmazor
 export PG_YN_PASSWORD=
 

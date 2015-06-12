@@ -30,7 +30,6 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'majutsushi/tagbar'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-fugitive'
-Bundle 'tomtom/tcomment_vim'
 Bundle 'itchyny/lightline.vim'
 
 set laststatus=2

@@ -33,6 +33,9 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-fugitive'
 Bundle 'itchyny/lightline.vim'
 
+" support asciidoctor highlighting
+Bundle 'sukima/asciidoc-vim'
+
 set laststatus=2
 syntax enable
 filetype plugin indent on

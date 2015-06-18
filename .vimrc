@@ -33,6 +33,9 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-fugitive'
 Bundle 'itchyny/lightline.vim'
 
+" linting and the such
+Bundle 'scrooloose/syntastic'
+
 " support asciidoctor highlighting
 Bundle 'sukima/asciidoc-vim'
 

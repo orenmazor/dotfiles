@@ -1,45 +1,11 @@
-# Copyright 2006-2015 Joseph Block <jpb@apesseekingknowledge.net>
-autoload -U promptinit && promptinit
-# source $ZSH/oh-my-zsh.sh
-#
-# BSD licensed, see LICENSE.txt
-
-# Set this to use case-sensitive completion
-# CASE_SENSITIVE="true"
-
-# Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
-
-# Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment following line if you want red dots to be displayed while waiting for completion
-export COMPLETION_WAITING_DOTS="true"
-
-# Correct spelling for commands
-# setopt correct
-
-# turn off the infernal correctall for filenames
-unsetopt correctall
+export GOPATH="/Users/orenmazor/opt/golang"
+export HOMEBREW_GITHUB_API_TOKEN=4a9aea7cdffc955c0288bcddc2e7f26bb448c075
+export EDITOR="vim"
+export PYENV_ROOT="$HOME/.pyenv"
+PATH="/usr/local/openssl/bin:$PYENV_ROOT/bin:$PATH:$PYENV_ROOT/shims"
 
 # Base PATH
-PATH=/usr/local/bin:/usr/local/sbin:/sbin:/usr/sbin:/bin:/usr/bin
-
-# Conditional PATH additions
-
-for path_candidate in /opt/local/sbin \
-  /Applications/Xcode.app/Contents/Developer/usr/bin \
-  /opt/local/bin \
-  /usr/local/share/npm/bin \
-  ~/.cabal/bin \
-  ~/.rbenv/bin \
-  ~/bin \
-  ~/src/gocode/bin
-do
-  if [ -d ${path_candidate} ]; then
-    export PATH=${PATH}:${path_candidate}
-  fi
-done
+PATH=$PATH:/usr/local/openssl/bin:/usr/local/bin:/usr/local/sbin:/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/go/bin
 
 # Fun with SSH
 if [ $(ssh-add -l | grep -c "The agent has no identities." ) -eq 1 ]; then
@@ -66,11 +32,6 @@ if [ -f ~/.ssh/id_dsa ]; then
 fi
 
 # Now that we have $PATH set up and ssh keys loaded, configure zgen.
-
-# start zgen
-source ~/zgen/zgen.zsh
-source ~/.zgen-setup
-# end zgen
 
 # set some history options
 setopt append_history
@@ -117,22 +78,10 @@ bindkey " " globalias
 bindkey "^ " magic-space           # control-space to bypass completion
 bindkey -M isearch " " magic-space # normal space during searches
 
-# Customize to your needs...
-# Stuff that works on bash or zsh
-if [ -r ~/.sh_aliases ]; then
-  source ~/.sh_aliases
-fi
-
-# Stuff only tested on zsh, or explicitly zsh-specific
-if [ -r ~/.zsh_aliases ]; then
-  source ~/.zsh_aliases
-fi
-
-if [ -r ~/.zsh_functions ]; then
-  source ~/.zsh_functions
-fi
-
-export LOCATE_PATH=/var/db/locate.database
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin:/Users/orenmazor/.rbenv/shims:/Users/orenmazor/.rbenv/bin:/Users/orenmazor/bin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/Users/orenmazor/opt/golang/bin:/Applications/Vagrant/bin:/usr/local/go/bin"
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
+export RAILS_ENV=development
+export RACK_ENV=development
 
 # Load AWS credentials
 if [ -f ~/.aws/aws_variables ]; then
@@ -144,61 +93,15 @@ if [ -d /Library/Java/Home ];then
   export JAVA_HOME=/Library/Java/Home
 fi
 
-if [[ "$(uname -s)" == "Darwin" ]]; then
-  # We're on osx
-  [ -f ~/.osx_aliases ] && source ~/.osx_aliases
-  if [ -d ~/.osx_aliases.d ]; then
-    for alias_file in ~/.osx_aliases.d/*
-    do
-      source $alias_file
-    done
-  fi
-fi
-
-
-if [ -f /usr/local/etc/grc.bashrc ]; then
-  source "$(brew --prefix)/etc/grc.bashrc"
-
-  function ping5(){
-    grc --color=auto ping -c 5 "$@"
-  }
-else
-  alias ping5='ping -c 5'
-fi
-
-# Speed up autocomplete, force prefix mapping
-zstyle ':completion:*' accept-exact '*(N)'
-zstyle ':completion:*' use-cache on
-zstyle ':completion:*' cache-path ~/.zsh/cache
-zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:t)*==34=34}:${(s.:.)LS_COLORS}")';
-
-# Load any custom zsh completions we've installed
-if [ -d ~/.zsh-completions ]; then
-  for completion in ~/.zsh-completions/*
-  do
-    source "$completion"
-  done
-fi
-
-# Make it easy to append your own customizations that override the above
-if [ -f ~/.zshrc.local ]; then
-  source ~/.zshrc.local
-fi
-
-# load all files from .zshrc.d directory
-mkdir -p ~/.zshrc.d
-if [ -n "$(ls ~/.zshrc.d)" ]; then
-  for dotfile in ~/.zshrc.d/*
-  do
-    if [ -r "${dotfile}" ]; then
-      source "${dotfile}"
-    fi
-  done
-fi
+ # Speed up autocomplete, force prefix mapping
+# zstyle ':completion:*' accept-exact '*(N)'
+# zstyle ':completion:*' use-cache on
+# zstyle ':completion:*' cache-path ~/.zsh/cache
+# zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:t)*==34=34}:${(s.:.)LS_COLORS}")';
 
 # In case a plugin adds a redundant path entry, remove duplicate entries
 # from PATH
-plugins=(git)
+#plugins=(git)
 #
 # This snippet is from Mislav Marohnić <mislav.marohnic@gmail.com>'s
 # dotfiles repo at https://github.com/mislav/dotfiles
@@ -216,4 +119,56 @@ dedupe_path() {
   export PATH=${(j+:+)result}
 }
 
+export NVM_DIR=~/.nvm
+
 dedupe_path
+eval "$(docker-machine env dev)"
+eval "$(rbenv init -)"
+eval "$(pyenv init -)"
+
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
+
+ZSH_AUTOSUGGEST_STRATEGY="match_prev_cmd"
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Just comment a section if you want to disable it
+SPACESHIP_PROMPT_ORDER=(
+  # time        # Time stampts section (Disabled)
+  user          # Username section
+  dir           # Current directory section
+#  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+#  hg            # Mercurial section (hg_branch  + hg_status)
+  # package     # Package version (Disabled)
+#  node          # Node.js section
+#  ruby          # Ruby section
+#  elixir        # Elixir section
+  # xcode       # Xcode section (Disabled)
+#  swift         # Swift section
+#  golang        # Go section
+#  php           # PHP section
+#  rust          # Rust section
+#  haskell       # Haskell Stack section
+  # julia       # Julia section (Disabled)
+  # docker      # Docker section (Disabled)
+  aws           # Amazon Web Services section
+  venv          # virtualenv section
+#  conda         # conda virtualenv section
+#  pyenv         # Pyenv section
+#  dotnet        # .NET section
+  # ember       # Ember.js section (Disabled)
+#  kubecontext   # Kubectl context section
+  exec_time     # Execution time
+  line_sep      # Line break
+#  battery       # Battery level and status
+  # vi_mode     # Vi-mode indicator (Disabled)
+#  jobs          # Backgound jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
